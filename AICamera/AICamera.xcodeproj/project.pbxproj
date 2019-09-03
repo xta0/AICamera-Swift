@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21421B1A9CC49C84A91FA82C /* Pods_AICamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E2515C1D0FEE0FAF8001FC /* Pods_AICamera.framework */; };
 		A0115C60231DE1A400E9F4F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0115C5F231DE1A400E9F4F9 /* AppDelegate.swift */; };
 		A0115C62231DE1A400E9F4F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0115C61231DE1A400E9F4F9 /* ViewController.swift */; };
 		A0115C65231DE1A400E9F4F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0115C63231DE1A400E9F4F9 /* Main.storyboard */; };
@@ -23,8 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7DEFD399BF037386BA030DBB /* Pods-AICamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AICamera.release.xcconfig"; path = "Target Support Files/Pods-AICamera/Pods-AICamera.release.xcconfig"; sourceTree = "<group>"; };
-		97E2515C1D0FEE0FAF8001FC /* Pods_AICamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AICamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0115C5C231DE1A400E9F4F9 /* AICamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AICamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0115C5F231DE1A400E9F4F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0115C61231DE1A400E9F4F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +36,6 @@
 		A0115C7F231DE96300E9F4F9 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 		A0115C81231DEA1800E9F4F9 /* CameraSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSessionManager.swift; sourceTree = "<group>"; };
 		A0115C83231DEBF800E9F4F9 /* CVPixelBuffer+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CVPixelBuffer+Helper.swift"; sourceTree = "<group>"; };
-		D1F49482AF847EA4B4C16017 /* Pods-AICamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AICamera.debug.xcconfig"; path = "Target Support Files/Pods-AICamera/Pods-AICamera.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +43,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21421B1A9CC49C84A91FA82C /* Pods_AICamera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +54,6 @@
 			children = (
 				A0115C5E231DE1A400E9F4F9 /* AICamera */,
 				A0115C5D231DE1A400E9F4F9 /* Products */,
-				F8B37FE0528EE3E00A0F781F /* Pods */,
-				E89F323CEB7574AAB153E0B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,23 +101,6 @@
 			path = camera;
 			sourceTree = "<group>";
 		};
-		E89F323CEB7574AAB153E0B3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				97E2515C1D0FEE0FAF8001FC /* Pods_AICamera.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F8B37FE0528EE3E00A0F781F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1F49482AF847EA4B4C16017 /* Pods-AICamera.debug.xcconfig */,
-				7DEFD399BF037386BA030DBB /* Pods-AICamera.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,7 +108,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0115C6E231DE1A400E9F4F9 /* Build configuration list for PBXNativeTarget "AICamera" */;
 			buildPhases = (
-				4229C6BCF2B71AD5FEAD0A9A /* [CP] Check Pods Manifest.lock */,
 				A0115C58231DE1A400E9F4F9 /* Sources */,
 				A0115C59231DE1A400E9F4F9 /* Frameworks */,
 				A0115C5A231DE1A400E9F4F9 /* Resources */,
@@ -193,31 +168,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4229C6BCF2B71AD5FEAD0A9A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AICamera-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A0115C58231DE1A400E9F4F9 /* Sources */ = {
@@ -374,7 +324,6 @@
 		};
 		A0115C6F231DE1A400E9F4F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F49482AF847EA4B4C16017 /* Pods-AICamera.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -393,7 +342,6 @@
 		};
 		A0115C70231DE1A400E9F4F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DEFD399BF037386BA030DBB /* Pods-AICamera.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
